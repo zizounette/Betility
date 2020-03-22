@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/Equipe"
+            android:layout_width="165dp"
+            android:layout_height="91dp"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Classement"
+            android:layout_width="65dp"
+            android:layout_height="91dp"
+            android:gravity="center_horizontal"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
